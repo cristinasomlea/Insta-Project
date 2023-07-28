@@ -38,7 +38,7 @@ export default function Header() {
       <div className="flex items-center space-x-4">
         <HomeIcon className=" hidden md:inline-flex h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out" />
         <PlusCircleIcon  className="h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out"/>
-        <img src="https://cdn-icons-png.flaticon.com/256/5362/5362034.png" alt="user-image" className="h-10 rounded-full cursor-pointer"></img>
+        <img src="https://cdn-icons-png.flaticon.com/256/5362/5362034.png" alt="user-image" className="h-8 rounded-full cursor-pointer"></img>
       </div>
     </div>
     </div>
