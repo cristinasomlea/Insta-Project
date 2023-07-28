@@ -6,6 +6,7 @@ import { HomeIcon } from "@heroicons/react/solid";
 export default function Header() {
 
   return (
+    <div className="shadow-sm border-b sticky top-0 bg-white z-30">
     <div className=" pl-2 flex items-center justify-between max-w-6xl mx-4 xl:mx-auto">
       <div className="cursor-pointer h-24 w-24 relative hidden lg:inline-grid">
         <Image
@@ -39,6 +40,7 @@ export default function Header() {
         <PlusCircleIcon  className="h-6 cursor-pointer hover:scale-125 transition-transform duration-200 ease-out"/>
         <img src="https://cdn-icons-png.flaticon.com/256/5362/5362034.png" alt="user-image" className="h-10 rounded-full cursor-pointer"></img>
       </div>
+    </div>
     </div>
   );
 }
